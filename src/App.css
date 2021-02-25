@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.logo{
+  position: absolute;
+  top:0%;
+  left:45%;
+  height: 180%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-right{
+  position: absolute;
+  right: 2%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav{
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn{
+  border-radius: 50px;
+  background-color: inherit;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top-div{
+  background-image: url("https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6ImhvbWUvaG9tZS1iYW5uZXIxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMywiaGVpZ2h0Ijo2MDEsImZpdCI6ImNvdmVyIn0sIndlYnAiOnRydWV9fQ==");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
 }
